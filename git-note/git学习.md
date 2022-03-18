@@ -54,10 +54,10 @@ git merge --abort
 
 13. 建立github仓库 并提交本地仓库到远端 (建立github时会提示)
 ![github推送](./github推送.png)
-git remote //查看远程仓库
-git remote add origin +地址   //给地址起别名
-git branch -M main  //给分支改名
-git push -u origin main
+git remote //查看远程仓库  
+git remote add origin +地址   //给地址起别名  
+git branch -M main  //给分支改名  
+git push -u origin main  
 
 14. 推送当前分支最新的提交到远程  
 git push 
@@ -67,9 +67,9 @@ ag: git push origin master
 15. 拉取远程分支最新的提交到本地  
 git pull  
 pull= fetch +merge
-git fetch origin master //抓取到本地，此时使用cat命令查看时，是远程游离态的新信息，但未合并到本地 
-git merge origin/master //合并，此时本地文件与新提交的远程游离态合并。
-合并等于:git pull origin master
+git fetch origin master //抓取到本地，此时使用cat命令查看时，是远程游离态的新信息，但未合并到本地   
+git merge origin/master //合并，此时本地文件与新提交的远程游离态合并。  
+合并等于:git pull origin master  
 
 16. 克隆命令好处：  
 git clone 地址  
